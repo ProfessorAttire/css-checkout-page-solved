@@ -26,29 +26,29 @@ This assignment should prove that a student is able to:
 
 ## Standard requirements
 
-- [ ] Fork the project to your github account
-- [ ] Clone the project to your computer
-- [ ] Open the project in VSCode with `code <cloned_repo_folder_name>`
+- [x] Fork the project to your github account
+- [x] Clone the project to your computer
+- [x] Open the project in VSCode with `code <cloned_repo_folder_name>`
 - [ ] Initialize playwright and install project packages
-  - [ ] Use `npm i` to install packages
-  - [ ] Use `npm run browser-install` to install the browser environment for testing (~131mb will be downloaded)
-  - [ ] (Windows users only) Use `npm run deps-install` to install playwright additional dependencies (160mb will be downloaded)
+  - [x] Use `npm i` to install packages
+  - [x] Use `npm run browser-install` to install the browser environment for testing (~131mb will be downloaded)
+  - [x] (Windows users only) Use `npm run deps-install` to install playwright additional dependencies (160mb will be downloaded)
 - [ ] All the tasks of the "Specific requirements" section MUST be solved
-- [ ] **The project's file/folder structure should NOT be edited!**
+- [x] **The project's file/folder structure should NOT be edited!**
 - [ ] All the tests MUST pass. Fix any errors before you submit (acceptance criteria).
-  - [ ] Use `npm run test` to run all tests in the terminal
-  - [ ] (Optional) Use `npm run test-ui` to run all the tests with GUI
-  - [ ] (Optional) Use `npm run show-report` to see the latest report in the browser
-- [ ] VSCode IDE MUST have 0 problems listed
-- [ ] The code of the index.html and styles.css should pass the W3C validation (Feel free to use either the "[w3c web validator](https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator)" VSCode extension or the "[Online w3c Markup Validation Service](https://validator.w3.org/#validate_by_input)")
-- [ ] The code MUST be formatted with Prettier.
-- [ ] Push the changes to the Github repo, when finished.
-- [ ] Submit a .txt file with the Github repo url.
+  - [x] Use `npm run test` to run all tests in the terminal
+  - [x] (Optional) Use `npm run test-ui` to run all the tests with GUI
+  - [x] (Optional) Use `npm run show-report` to see the latest report in the browser
+- [x] VSCode IDE MUST have 0 problems listed
+- [x] The code of the index.html and styles.css should pass the W3C validation (Feel free to use either the "[w3c web validator](https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator)" VSCode extension or the "[Online w3c Markup Validation Service](https://validator.w3.org/#validate_by_input)")
+- [x] The code MUST be formatted with Prettier.
+- [x] Push the changes to the Github repo, when finished.
+- [x] Submit a .txt file with the Github repo url.
 
 ## Specific requirements
 
 For the styles.css file:
 
-- [ ] Find and fix all the syntax issues in the file
+- [x] Find and fix all the syntax issues in the file
   - There are commented out hints for you to find the CSS rules with incorrect syntax
   - When running tests, the failed test message contains the CSS file line number of the rule that was tested.

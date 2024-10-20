@@ -8,23 +8,23 @@ html,
 body {
   height: 100%;
   width: 100%;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: white;
 }
 
 /* 🔴 CSS Property name Error here 👇 */
 body {
-  background-colo: #030a1e;
+  background-color: #030a1e;
 }
 
 .content {
   height: 100%;
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
   gap: 60px;
   justify-content: space-between;
-      align-items: center;
+  align-items: center;
 }
 
 h1 {
@@ -37,7 +37,7 @@ h2 {
 }
 
 /* 🔴 CSS Syntax Error here 👇 */
-main
+main {
   width: 100%;
   padding-top: 60px;
   display: flex;
@@ -48,10 +48,10 @@ main
 /* 🔴 CSS Syntax Error here 👇 */
 .forms {
   width: 100%;
-     max-width: 964px;
+  max-width: 964px;
   margin: 0 auto;
-  display; flex;
-   gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 i {
@@ -61,7 +61,7 @@ i {
 
 /* 🔴 CSS Syntax Error here 👇 */
 .box {
-  background: linear-gradient(#17192c, #1a1c30),
+  background: linear-gradient(#17192c, #1a1c30);
   border: 1px solid #2c3044;
   padding: 30px;
   width: 100%;
@@ -82,7 +82,7 @@ i {
 .form-control,
 .form-input-group {
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
   gap: 30px;
 }
 
@@ -106,11 +106,11 @@ i {
 .form-input-group input {
   display: flex;
   gap: 10px;
-      justify-content: space-between;
+  justify-content: space-between;
   padding: 12px;
   background: linear-gradient(45deg, #1e2338, #191e34);
   border: 1px solid #282d43;
-    borderRadius: 5px;
+  border-radius: 5px;
 }
 
 .option-item-name,
@@ -129,7 +129,7 @@ i {
 /* 🔴 CSS Syntax Error here 👇 */
 .option-item-name .hint,
 .review-author-name .hint,
-.form-input-group label; {
+.form-input-group label {
   font-size: 12px;
   color: #b6b8c0;
 }
@@ -137,12 +137,12 @@ i {
 /* 🔴 CSS Syntax Error here 👇 */
 .option-item-selected {
   display: flex;
-  align-items = center;
+  align-items: center;
   gap: 16px;
 }
 
 .option-item-selected .price:before {
-  content: '$ ';
+  content: "$ ";
 }
 
 label {
@@ -160,17 +160,17 @@ label {
   border-radius: 50%;
 }
 
-[type='radio']:checked ~ label {
+[type="radio"]:checked ~ label {
   border: 1px solid #5f57ff;
 }
 
 /* 🔴 CSS property name Error here 👇 */
-[type='radio']:checked ~ label .circle {
-  BackgroundColor: white;
+[type="radio"]:checked ~ label .circle {
+  background-color: white;
   border: 4px solid #5f57ff;
 }
 
-[type='radio']:checked ~ label i {
+[type="radio"]:checked ~ label i {
   color: white;
 }
 
@@ -180,19 +180,19 @@ label {
   gap: 20px;
   padding: 20px;
   overflow: hidden;
-  Pposition: relative;
+  position: relative;
 }
 
 /* 🔴 CSS syntax Error here 👇 */
 .reviews:before {
-  content: '';
+  content: "";
   opacity: 0.2;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background-image: url(/assets/backgrounds/review-bg.png');
+  background-image: url(/assets/backgrounds/review-bg.png);
   background-size: cover;
 }
 
@@ -257,7 +257,7 @@ label {
   flex-direction: row;
 }
 
-label[for='card-number'] ~ img {
+label[for="card-number"] ~ img {
   width: 34px;
   position: absolute;
   top: 27px;
@@ -278,7 +278,7 @@ label[for='card-number'] ~ img {
 
 /* Syntax Error here */
 
-input[type='submit'] {
+input[type="submit"] {
   height: 36px;
   background: linear-gradient(#6e67fe, #5a52ff);
   outline: none;
@@ -317,7 +317,7 @@ hr {
   gap: 10px;
 }
 
-input[type='checkbox'] ~ label {
+input[type="checkbox"] ~ label {
   border: none;
 }
 
@@ -378,5 +378,5 @@ footer ul a {
 
 /* 🔴 CSS property name Error here 👇 */
 footer ul li span a {
-  colorrrrr: rgb(218, 82, 82);
+  color: rgb(218, 82, 82);
 }
